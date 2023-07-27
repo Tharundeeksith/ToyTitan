@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* Common styles for all screen sizes */
+.nav {
+  display: flex;
+  list-style-type: none;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  font-size: medium;
+  z-index: 1;
+}
+
+.nav li {
+  padding: 10px;
+  margin-left: 40px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  border-radius: 0.1cm;
+  padding: 5px;
+}
+
+.nav a:hover {
+  background-color: gold;
+  text-decoration: none;
+  color: brown;
+}
+
+#loginbutton a {
+  background-color: greenyellow;
+  padding: 5px;
+  font-size: large;
+}
+
+#signupbutton a {
+  background-color: red;
+  padding: 6px;
+  font-size: large;
+  color: whitesmoke;
+}
+
+.imgcomponent {
+  position: absolute;
+  top: 50%;
+  left: 63%;
+  transform: translate(-50%, -50%);
+}
+
+.heading {
+  position: absolute;
+  top: 37%;
+  left: 22%;
+  font-family: 'Luckiest Guy', cursive;
+  text-shadow: 2px 2px #2e2f2f;
+  font-weight: bolder;
+  font-size: 40px;
+  color: rgb(239, 237, 237);
+}
+
+.purchase {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  border-radius: 0.5cm;
+  padding: 20px;
+  cursor: pointer;
+  flex-direction: column;
+}
+
+#purchasebutton {
+  font-family: 'Luckiest Guy', cursive;
+  font-weight: bolder;
+  padding: 15px;
+  font-size: larger;
+  background-color: whitesmoke;
+  box-shadow: 2px 2px rgb(84, 179, 210);
+  border-radius: 0.5cm;
+  border: none;
+  margin-top: 5px;
+  margin-left: 30px;
+  cursor: pointer;
+  color: black;
+}
+
+#ageheader {
+  font-family: 'Luckiest Guy', cursive;
+}
+
+.shopbybrand {
+  display: flex;
+}
+
+.shopbybrand img {
+  width: 280px;
+  padding: 20px;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.shopbybrand img:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+  width: 300px;
+}
+
+#ourbrand {
+  font-family: 'Luckiest Guy', cursive;
+  text-align: center;
+  margin-top: 100px;
+  color: black;
+  text-transform: uppercase;
+}
+
+#wholebrand {
+  background-color: lightskyblue;
+  padding-top: 5px;
+  padding-bottom: 100px;
+  margin-top: 70px;
+}
+
+/* Styles for specific screen sizes */
+@media screen and (max-width: 768px) {
+  /* Adjust styles for screens up to 768px width */
+
+  .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav li {
+    margin: 10px;
+  }
+
+  #loginbutton {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  #signupbutton {
+    margin-top: 10px;
+  }
+
+  .imgcomponent {
+    top: 40%;
+  }
+
+  .heading {
+    top: 30%;
+    font-size: 30px;
+  }
+
+  .purchase {
+    top: 35%;
+    left: 30%;
+    padding: 10px;
+  }
+
+  #purchasebutton {
+    padding: 10px;
+    font-size: medium;
+    margin-left: 0;
+  }
+
+  .shopbybrand {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .shopbybrand img {
+    width: 220px;
+    padding: 10px;
+  }
+
+  #ourbrand {
+    margin-top: 50px;
+    font-size: 24px;
+  }
+
+  #wholebrand {
+    padding-bottom: 50px;
+  }
+}
+
+/* Add more media queries for different screen sizes if needed */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* Common styles for all screen sizes */
+.nav {
+  display: flex;
+  list-style-type: none;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  font-size: medium;
+  z-index: 1;
+}
+
+.nav li {
+  padding: 10px;
+  margin-left: 40px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  border-radius: 0.1cm;
+  padding: 5px;
+}
+
+.nav a:hover {
+  background-color: gold;
+  text-decoration: none;
+  color: brown;
+}
+
+#loginbutton a {
+  background-color: greenyellow;
+  padding: 5px;
+  font-size: large;
+}
+
+#signupbutton a {
+  background-color: red;
+  padding: 6px;
+  font-size: large;
+  color: whitesmoke;
+}
+
+.imgcomponent {
+  position: absolute;
+  top: 50%;
+  left: 63%;
+  transform: translate(-50%, -50%);
+}
+
+.heading {
+  position: absolute;
+  top: 37%;
+  left: 22%;
+  font-family: 'Luckiest Guy', cursive;
+  text-shadow: 2px 2px #2e2f2f;
+  font-weight: bolder;
+  font-size: 40px;
+  color: rgb(239, 237, 237);
+}
+
+.purchase {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  border-radius: 0.5cm;
+  padding: 20px;
+  cursor: pointer;
+  flex-direction: column;
+}
+
+#purchasebutton {
+  font-family: 'Luckiest Guy', cursive;
+  font-weight: bolder;
+  padding: 15px;
+  font-size: larger;
+  background-color: whitesmoke;
+  box-shadow: 2px 2px rgb(84, 179, 210);
+  border-radius: 0.5cm;
+  border: none;
+  margin-top: 5px;
+  margin-left: 30px;
+  cursor: pointer;
+  color: black;
+}
+
+#ageheader {
+  font-family: 'Luckiest Guy', cursive;
+}
+
+.shopbybrand {
+  display: flex;
+}
+
+.shopbybrand img {
+  width: 280px;
+  padding: 20px;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.shopbybrand img:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+  width: 300px;
+}
+
+#ourbrand {
+  font-family: 'Luckiest Guy', cursive;
+  text-align: center;
+  margin-top: 100px;
+  color: black;
+  text-transform: uppercase;
+}
+
+#wholebrand {
+  background-color: lightskyblue;
+  padding-top: 5px;
+  padding-bottom: 100px;
+  margin-top: 70px;
+}
+
+/* Styles for specific screen sizes */
+@media screen and (max-width: 768px) {
+  /* Adjust styles for screens up to 768px width */
+
+  .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav li {
+    margin: 10px;
+  }
+
+  #loginbutton {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  #signupbutton {
+    margin-top: 10px;
+  }
+
+  .imgcomponent {
+    top: 40%;
+  }
+
+  .heading {
+    top: 30%;
+    font-size: 30px;
+  }
+
+  .purchase {
+    top: 35%;
+    left: 30%;
+    padding: 10px;
+  }
+
+  #purchasebutton {
+    padding: 10px;
+    font-size: medium;
+    margin-left: 0;
+  }
+
+  .shopbybrand {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .shopbybrand img {
+    width: 220px;
+    padding: 10px;
+  }
+
+  #ourbrand {
+    margin-top: 50px;
+    font-size: 24px;
+  }
+
+  #wholebrand {
+    padding-bottom: 50px;
+  }
+}
+
+/* Add more media queries for different screen sizes if needed */
+
